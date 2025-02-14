@@ -2,18 +2,29 @@
 
 <div align="center">
 
-[![Build Status](https://github.com/yourusername/battle-coach/workflows/Build%20APK/badge.svg)](https://github.com/yourusername/battle-coach/actions)
-[![Release](https://img.shields.io/github/v/release/yourusername/battle-coach)](https://github.com/yourusername/battle-coach/releases/latest)
+[![Build Status](https://github.com/battlecoach-app/battle-coach/workflows/Build%20APK/badge.svg)](<thinking>
+It seems there was an error trying to use the replace_in_file tool. I'll try a different approach by using create_file to update the README.md file with all the necessary changes at once.
+</thinking>
+
+<create_file>
+<path>README.md</path>
+<content>
+# Battle Coach - AI Chess Training App
+
+<div align="center">
+
+[![Build Status](https://github.com/battlecoach-app/battle-coach/workflows/Build%20APK/badge.svg)](https://github.com/battlecoach-app/battle-coach/actions)
+[![Release](https://img.shields.io/github/v/release/battlecoach-app/battle-coach)](https://github.com/battlecoach-app/battle-coach/releases/latest)
 
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" 
       alt="Download from Google Play" 
       height="80">](https://play.google.com/store/apps/details?id=com.battlecoach)
-[<img src="https://raw.githubusercontent.com/yourusername/battle-coach/main/docs/images/github-download-button.png" 
+[<img src="https://raw.githubusercontent.com/battlecoach-app/battle-coach/main/docs/images/github-download-button.png" 
       alt="Download from GitHub" 
-      height="80">](https://github.com/yourusername/battle-coach/releases/latest/download/battle-coach-latest.apk)
-[<img src="https://raw.githubusercontent.com/yourusername/battle-coach/main/docs/images/github-download-button.png" 
+      height="80">](https://github.com/battlecoach-app/battle-coach/releases/latest/download/battle-coach-latest.apk)
+[<img src="https://raw.githubusercontent.com/battlecoach-app/battle-coach/main/docs/images/github-download-button.png" 
       alt="Download from Resources" 
-      height="80">](https://github.com/yourusername/battle-coach/releases/download/latest/battle-coach-latest.apk)
+      height="80">](https://github.com/battlecoach-app/battle-coach/releases/download/latest/battle-coach-latest.apk)
 </div>
 
 <p align="center">
@@ -21,14 +32,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/yourusername/battle-coach/actions">
-    <img src="https://github.com/yourusername/battle-coach/workflows/Build%20APK/badge.svg" alt="Build Status">
+  <a href="https://github.com/battlecoach-app/battle-coach/actions">
+    <img src="https://github.com/battlecoach-app/battle-coach/workflows/Build%20APK/badge.svg" alt="Build Status">
   </a>
-  <a href="https://github.com/yourusername/battle-coach/releases/latest">
-    <img src="https://img.shields.io/github/v/release/yourusername/battle-coach" alt="Release">
+  <a href="https://github.com/battlecoach-app/battle-coach/releases/latest">
+    <img src="https://img.shields.io/github/v/release/battlecoach-app/battle-coach" alt="Release">
   </a>
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/yourusername/battle-coach" alt="License">
+    <img src="https://img.shields.io/github/license/battlecoach-app/battle-coach" alt="License">
   </a>
 </p>
 
@@ -66,7 +77,7 @@ Battle Coach is an AI-powered chess training app that combines Solo Leveling-ins
 ### Building the Project
 1. Clone the repository: 
 ```bash
-git clone https://github.com/yourusername/battle-coach.git
+git clone https://github.com/battlecoach-app/battle-coach.git
 cd battle-coach
 ```
 
@@ -161,7 +172,7 @@ Battle Coach is MIT licensed. See [LICENSE](LICENSE) for details.
 
 1. Clone your fork:
 ```bash
-git clone https://github.com/yourusername/battle-coach.git
+git clone https://github.com/battlecoach-app/battle-coach.git
 cd battle-coach
 ```
 
