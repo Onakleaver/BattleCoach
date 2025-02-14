@@ -127,4 +127,4 @@ class StockfishEngine @Inject constructor() : ChessEngine {
             }
         }
     }
-} 
+}

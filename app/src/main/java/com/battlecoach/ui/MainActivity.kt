@@ -10,6 +10,7 @@ import com.battlecoach.ui.navigation.BattleCoachNavigation
 import com.battlecoach.ui.theme.BattleCoachTheme
 import dagger.hilt.android.AndroidEntryPoint
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import android.graphics.Color
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -37,4 +38,4 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-} 
+}

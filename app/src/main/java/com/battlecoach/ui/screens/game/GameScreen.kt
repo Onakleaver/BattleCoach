@@ -9,6 +9,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.battlecoach.ui.components.board.Chessboard
 import com.battlecoach.ui.components.board.MoveHistory
 import com.battlecoach.ui.theme.DefaultChessboardTheme
+import com.battlecoach.domain.model.PieceColor
+import com.battlecoach.domain.model.ChessMove
 
 @Composable
 fun GameScreen(
@@ -86,4 +88,4 @@ private fun GameClock(
             modifier = Modifier.padding(16.dp)
         )
     }
-} 
+}

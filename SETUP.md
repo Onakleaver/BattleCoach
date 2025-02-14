@@ -36,7 +36,13 @@ CHESS_COM_API_KEY=your_key_here
 LICHESS_API_KEY=your_key_here
 ```
 
-### 3. Build the Project
+### 3. Set Up Debug Keystore
+Create a `debug.keystore` file in the project root:
+```bash
+keytool -genkey -v -keystore debug.keystore -alias androiddebugkey -keyalg RSA -keysize 2048 -validity 10000 -storepass android -keypass android -dname "CN=Android Debug,O=Android,C=US"
+```
+
+### 4. Build the Project
 ```bash
 # Clean and build
 ./gradlew clean build
@@ -45,7 +51,7 @@ LICHESS_API_KEY=your_key_here
 ./gradlew test
 ```
 
-### 4. Run the App
+### 5. Run the App
 - Open in Android Studio
 - Select a device/emulator
 - Click "Run" (⇧F10)
@@ -129,4 +135,4 @@ fun YourComposable() {
         // Your composable content
     }
 }
-``` 
+```

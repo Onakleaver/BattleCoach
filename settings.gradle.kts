@@ -4,6 +4,9 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
+    plugins {
+        id("com.google.gms.google-services") version "4.3.10"
+    }
 }
 
 dependencyResolutionManagement {
@@ -16,4 +19,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Battle Coach"
-include(":app") 
+include(":app")

@@ -11,6 +11,9 @@
 [<img src="https://raw.githubusercontent.com/yourusername/battle-coach/main/docs/images/github-download-button.png" 
       alt="Download from GitHub" 
       height="80">](https://github.com/yourusername/battle-coach/releases/latest/download/battle-coach-latest.apk)
+[<img src="https://raw.githubusercontent.com/yourusername/battle-coach/main/docs/images/github-download-button.png" 
+      alt="Download from Resources" 
+      height="80">](https://github.com/yourusername/battle-coach/releases/download/latest/battle-coach-latest.apk)
 </div>
 
 <p align="center">
@@ -152,4 +155,11 @@ Battle Coach is MIT licensed. See [LICENSE](LICENSE) for details.
 ## Development Setup
 
 1. Clone your fork:
+```bash
+git clone https://github.com/yourusername/battle-coach.git
+cd battle-coach
 ```
+
+2. Open the project in Android Studio.
+3. Sync Gradle files.
+4. Run on an emulator or device.

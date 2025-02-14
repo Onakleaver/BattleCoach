@@ -104,4 +104,4 @@ private fun StatItem(
             style = MaterialTheme.typography.bodySmall
         )
     }
-} 
+}

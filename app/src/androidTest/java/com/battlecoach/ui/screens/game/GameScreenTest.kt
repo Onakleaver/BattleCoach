@@ -5,6 +5,7 @@ import androidx.compose.ui.test.junit4.createComposeRule
 import com.battlecoach.domain.game.TimeControl
 import org.junit.Rule
 import org.junit.Test
+import com.battlecoach.ui.screens.game.GameClock
 
 class GameScreenTest {
     @get:Rule
@@ -37,4 +38,4 @@ class GameScreenTest {
             .assertHasClickAction()
             .assertIsEnabled()
     }
-} 
+}

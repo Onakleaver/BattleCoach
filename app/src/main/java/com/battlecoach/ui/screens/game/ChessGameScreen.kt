@@ -8,6 +8,7 @@ import androidx.compose.ui.unit.dp
 import com.battlecoach.ui.components.Chessboard
 import com.battlecoach.ui.components.MoveHistory
 import com.battlecoach.ui.theme.DefaultChessTheme
+import androidx.hilt.navigation.compose.hiltViewModel
 
 @Composable
 fun ChessGameScreen(
@@ -44,4 +45,4 @@ fun ChessGameScreen(
             onMoveSelected = viewModel::jumpToMove
         )
     }
-} 
+}
