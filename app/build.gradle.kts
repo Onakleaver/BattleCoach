@@ -29,6 +29,7 @@ android {
             isMinifyEnabled = false
             isDebuggable = true
             applicationIdSuffix = ".debug"
+            signingConfig = null
         }
         release {
             isMinifyEnabled = true
@@ -64,6 +65,15 @@ android {
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+
+    signingConfigs {
+        create("debug") {
+            storeFile = null
+            storePassword = ""
+            keyAlias = ""
+            keyPassword = ""
         }
     }
 }
