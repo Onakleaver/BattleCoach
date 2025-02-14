@@ -56,6 +56,15 @@ keytool -genkey -v -keystore debug.keystore -alias androiddebugkey -keyalg RSA -
 - Select a device/emulator
 - Click "Run" (⇧F10)
 
+### 6. Push the Codebase to GitHub
+```bash
+# Pull the latest changes from the main branch
+git pull origin main
+
+# Push your local changes to the main branch
+git push origin main
+```
+
 ## Development Workflow
 
 ### Branch Naming
@@ -136,3 +145,4 @@ fun YourComposable() {
     }
 }
 ```
+````
