@@ -70,9 +70,14 @@ git clone https://github.com/yourusername/battle-coach.git
 cd battle-coach
 ```
 
-2. Open in Android Studio
-3. Sync Gradle files
-4. Run on emulator or device
+2. Make `gradlew` executable:
+```bash
+chmod +x gradlew
+```
+
+3. Open in Android Studio
+4. Sync Gradle files
+5. Run on emulator or device
 
 ### Testing
 ```bash
